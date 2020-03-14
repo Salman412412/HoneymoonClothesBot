@@ -4,7 +4,7 @@ include("Telegram.php");
 date_default_timezone_set("asia/tehran");
 
 // Set the bot TOKEN
-$bot_id = "1136790116:AAEVGjImPAohKuS7s77JRHBsMeVLKpvQN9c";
+$bot_id = "";
 
 // Instances the class
 $telegram   = new Telegram($bot_id);
